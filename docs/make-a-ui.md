@@ -12,6 +12,27 @@ Write a small token table: background, surface, text, muted text, accent, border
 
 Sketch the order of information using real or explicitly marked sample content. Do not use fabricated testimonials or metrics as visual filler. Decide what simplifies or rearranges on small screens before implementing a wide layout.
 
+### Use Framer University as a reference
+
+Browse [Framer University Resources](https://framer.university/resources) for components, animations, effects, interactions, and websites. Its category and tag filters help narrow a search to the behavior you need. Examples on the page include text reveals, hover tooltips, scroll animations, and form submission states.
+
+1. Choose a reference that supports the primary user task, and save its specific resource link in the UI brief.
+2. Describe what you want to learn from it: trigger, initial state, movement, timing, final state, and feedback. Separate that behavior from the reference's branding and content.
+3. Adapt the behavior to the project's stack and design system. A Framer component or override may require a new implementation in another framework.
+4. Provide keyboard and touch behavior where relevant, and a reduced-motion alternative. Verify the result on a narrow screen as well as desktop.
+
+Check the selected resource's terms before copying code or assets. This repository links to the library; it does not redistribute its components.
+
+Example reference brief:
+
+```text
+Reference: https://framer.university/resources
+Select a relevant form submission example and record its specific link.
+Study its pending-to-success feedback, then implement that behavior in this
+project's existing form using our typography and colors. Keep errors
+recoverable, announce the result accessibly, and respect reduced motion.
+```
+
 ## 3. Build the task and its states
 
 Implement the central action all the way to its result. A contact control should open an actual contact route; a filter should change results. Add the states needed to make that action understandable: pending, success, error, empty, selected, disabled. Explain how to recover from errors beside the relevant field or action.

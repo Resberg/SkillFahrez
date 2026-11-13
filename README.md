@@ -16,6 +16,12 @@ A portable toolkit for building interfaces and producing videos with an AI codin
 
 The first four skills are authored for this repository. `frontend-design` is an attributed local snapshot. See [provenance and licenses](THIRD_PARTY_NOTICES.md). More specialized UI/video skills are listed in the [optional catalog](docs/skill-catalog.md).
 
+## UI design references
+
+[Framer University Resources](https://framer.university/resources) is a reference library for components, animations, effects, interactions, and websites. Use it to study details such as hover feedback, text reveals, scroll animation, and form states, then adapt the relevant behavior to your product and existing stack.
+
+The [UI guide](docs/make-a-ui.md#use-framer-university-as-a-reference) explains how to turn a selected reference into an implementation brief. These resources are linked for reference; their source files and assets are not bundled in this repository. Check each resource's terms before reuse.
+
 ## Install
 
 Requires Git and Python 3.10+. The utilities use Python's standard library.

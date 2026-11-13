@@ -8,6 +8,7 @@ The four `fahrez-*` skills are independent, portable workflows. `frontend-design
 
 | Resource | What it adds | Distribution status here |
 | --- | --- | --- |
+| [Framer University Resources](https://framer.university/resources) | UI components, animations, effects, interactions, and website references; see the [UI guide](make-a-ui.md#use-framer-university-as-a-reference) | Reference link only; source files and assets are not bundled; check individual resource terms |
 | [Motionmaxxing](https://github.com/Tejashmakwana/motionmaxxing) | Detailed motion direction, runtime, reference material, and render-review tools | Link only; review upstream LICENSE/NOTICE, including runtime/font terms |
 | Impeccable | Broader interface design and critique workflow | Installed skill observed locally; complete redistribution license not established |
 | UI UX Pro Max | Searchable UI/UX guidance and stack references | Installed skill observed locally; complete redistribution license not established |
