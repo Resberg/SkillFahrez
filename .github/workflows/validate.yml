@@ -1,0 +1,16 @@
+name: Validate skill package
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python scripts/check_bundle.py
+      - run: python scripts/install_skills.py --destination "${{ runner.temp }}/skillfahrez" --dry-run
